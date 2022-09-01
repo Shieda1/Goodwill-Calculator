@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goodwill Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="goodwillRadio" name="variables" checked>
+  <label for="goodwillRadio">Goodwill</label>
+
+  <input type="radio" id="purchasepriceRadio" name="variables">
+  <label for="purchasepriceRadio">Purchase price</label>
+
+  <input type="radio" id="fairvalueoftheassetRadio" name="variables">
+  <label for="fairvalueoftheassetRadio">Fair value of the asset</label>
+
+  <input type="radio" id="fairvalueoftheliabilitiesRadio" name="variables">
+  <label for="fairvalueoftheliabilitiesRadio">Fair value of the liabilities</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Purchase price</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Fair value of the asset</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">Fair value of the liabilities</label>
+  <input type="number" id="v3"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
